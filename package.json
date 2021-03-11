@@ -1,0 +1,32 @@
+{
+  "name": "littledemo",
+  "version": "1.0.0",
+  "description": "Little demo to run an API with node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app/app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quiquex222333/LittleDemo.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "api"
+  ],
+  "author": "Enrique Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quiquex222333/LittleDemo/issues"
+  },
+  "homepage": "https://github.com/quiquex222333/LittleDemo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
