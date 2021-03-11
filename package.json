@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/app/app.js",
-    "test": "test"
+    "test": "mocha src/test/tests.js --exit"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/quiquex222333/LittleDemo#readme",
   "dependencies": {
+    "chai": "^4.3.3",
+    "chai-http": "^4.3.0",
     "express": "^4.17.1",
-    "faker": "^5.4.0"
+    "faker": "^5.4.0",
+    "mocha": "^8.3.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
